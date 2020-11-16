@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wi6NtRW9wmB/bEkOdQO5CYURa47z7KZ+XnBb5kVKbcr5SNT9Sa7O0WgGEfsDXyyq8Ru4YLNvUBGI92YfvtlmrQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rayfo\\Documents\\DuckGame\\Mods\\PortalQuack\\build\\src\\PortalQuack.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rayfo\\.nuget\\packages\\ilrepack\\2.0.18\\ilrepack.2.0.18.nupkg.sha512",
+    "C:\\Users\\rayfo\\.nuget\\packages\\lib.harmony\\2.0.0.10\\lib.harmony.2.0.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

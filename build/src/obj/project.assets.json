@@ -1,0 +1,176 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5.2": {
+      "ILRepack/2.0.18": {
+        "type": "package",
+        "build": {
+          "build/ILRepack.props": {}
+        }
+      },
+      "Lib.Harmony/2.0.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/net45/0Harmony.dll": {}
+        },
+        "runtime": {
+          "lib/net45/0Harmony.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.2/win": {
+      "ILRepack/2.0.18": {
+        "type": "package",
+        "build": {
+          "build/ILRepack.props": {}
+        }
+      },
+      "Lib.Harmony/2.0.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/net45/0Harmony.dll": {}
+        },
+        "runtime": {
+          "lib/net45/0Harmony.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.2/win-x64": {
+      "ILRepack/2.0.18": {
+        "type": "package",
+        "build": {
+          "build/ILRepack.props": {}
+        }
+      },
+      "Lib.Harmony/2.0.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/net45/0Harmony.dll": {}
+        },
+        "runtime": {
+          "lib/net45/0Harmony.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.2/win-x86": {
+      "ILRepack/2.0.18": {
+        "type": "package",
+        "build": {
+          "build/ILRepack.props": {}
+        }
+      },
+      "Lib.Harmony/2.0.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/net45/0Harmony.dll": {}
+        },
+        "runtime": {
+          "lib/net45/0Harmony.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ILRepack/2.0.18": {
+      "sha512": "sR5Aj3JLDbA8JwESfWYfigSz5k1oNSHPN434W1LX8sboWJYEOSQP/KkvZGmJKPgajzSUKkl2jDar3LPZiMFU4Q==",
+      "type": "package",
+      "path": "ilrepack/2.0.18",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/ILRepack.props",
+        "ilrepack.2.0.18.nupkg.sha512",
+        "ilrepack.nuspec",
+        "tools/ILRepack.exe"
+      ]
+    },
+    "Lib.Harmony/2.0.0.10": {
+      "sha512": "/MjkF0Sp0eSC9G6LjTzIZD+briW+m1H1ZuuI+RBwQMjj+8tbTQKAz0JYDKKWlAMkVD9VvLEeDAs0zzopWgG0hw==",
+      "type": "package",
+      "path": "lib.harmony/2.0.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "HarmonyLogo.png",
+        "LICENSE",
+        "lib.harmony.2.0.0.10.nupkg.sha512",
+        "lib.harmony.nuspec",
+        "lib/net35/0Harmony.dll",
+        "lib/net35/0Harmony.xml",
+        "lib/net45/0Harmony.dll",
+        "lib/net45/0Harmony.xml",
+        "lib/net472/0Harmony.dll",
+        "lib/net472/0Harmony.xml",
+        "lib/net48/0Harmony.dll",
+        "lib/net48/0Harmony.xml",
+        "lib/netcoreapp3.0/0Harmony.dll",
+        "lib/netcoreapp3.0/0Harmony.xml",
+        "lib/netcoreapp3.1/0Harmony.dll",
+        "lib/netcoreapp3.1/0Harmony.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5.2": [
+      "ILRepack >= 2.0.18",
+      "Lib.Harmony >= 2.0.0.10"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\rayfo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\rayfo\\Documents\\DuckGame\\Mods\\PortalQuack\\build\\src\\PortalQuack.csproj",
+      "projectName": "PortalQuack",
+      "projectPath": "C:\\Users\\rayfo\\Documents\\DuckGame\\Mods\\PortalQuack\\build\\src\\PortalQuack.csproj",
+      "packagesPath": "C:\\Users\\rayfo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rayfo\\Documents\\DuckGame\\Mods\\PortalQuack\\build\\src\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\rayfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net452"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net452": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net452": {
+        "dependencies": {
+          "ILRepack": {
+            "target": "Package",
+            "version": "[2.0.18, )"
+          },
+          "Lib.Harmony": {
+            "target": "Package",
+            "version": "[2.0.0.10, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
